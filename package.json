@@ -1,0 +1,28 @@
+{
+	"name": "idisk",
+	"version": "1.0.0",
+	"description": "Get information about disk usage in Node.JS",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/samuelnovaes/idisk.git"
+	},
+	"keywords": [
+		"disk",
+		"usage",
+		"wmic",
+		"linux",
+		"windows",
+		"mac",
+		"df"
+	],
+	"author": "Samuel Novaes <samuel.novaes.96@gmail.com>",
+	"license": "BSD-3-Clause",
+	"bugs": {
+		"url": "https://github.com/samuelnovaes/idisk/issues"
+	},
+	"homepage": "https://github.com/samuelnovaes/idisk#readme"
+}
