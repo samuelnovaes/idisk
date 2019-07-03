@@ -22,7 +22,7 @@ module.exports = (path = os.platform() == 'win32' ? 'C:' : '/') => new Promise((
 		})
 	}
 	else {
-		exec(`df ${path}`, (error, stdout, stderr) => {
+		exec(`df -B 1 ${path}`, (error, stdout, stderr) => {
 			if (error) reject(error)
 			else if (stderr) reject(new Error(stderr))
 			else {

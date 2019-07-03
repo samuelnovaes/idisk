@@ -10,7 +10,7 @@ npm install idisk
 ```javascript
 const idisk = require('idisk')
 
-//Using default path ('C:' for Windows and '/' for Linux)
+//Using default path ('C:' for Windows and '/' for Unix like OS)
 idisk().then(info => {
 	console.log(info.free)
 	console.log(info.used)
